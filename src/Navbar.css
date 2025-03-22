@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  transparent;
+    padding: 0px 20px;
+    /* margin-top: 48px; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 10vh;
+    /* backdrop-filter: blur(5px) */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .about-btn {
+    background-color: #2b2b2c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-btn:hover {
+    background-color: black;
+  }
+  

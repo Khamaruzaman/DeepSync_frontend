@@ -1,0 +1,33 @@
+.about-container {
+    max-width: auto;
+    /* margin: 30px auto; */
+    padding: 5px;
+    background-color: rgba(2, 13, 51, 0.8); /* Slight transparency for blur effect */
+    border-radius: 16px; /* More rounded edges */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blurred background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    color: #fff; /* White text for better contrast */
+    height: 90vh
+}
+
+.about-container h1, h2 {
+    color: #ffffff;
+}
+
+.about-container p {
+    line-height: 1.6;
+    color: #f1f1f1;
+}
+
+.contributors-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contributors-list li {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #ddd;
+}
